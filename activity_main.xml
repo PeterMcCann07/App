@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Page_Intro"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#F6C7C7"
+    android:visibility="visible"
+    tools:context=".IntroScreen"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/image_Background"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/image"
+        tools:srcCompat="@drawable/image" />
+
+    <Button
+        android:id="@+id/Btn_Button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="215dp"
+        android:layout_height="60dp"
+        android:text="@string/Button"
+        android:textSize="30sp"
+        android:title="@string/BtnButton"
+        android:visibility="visible"
+        app:backgroundTint="#004C6C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        tools:ignore="HardcodedText"
+        tools:text="Continue"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/image_TUD"
+        android:layout_width="412dp"
+        android:layout_height="386dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/image_Background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/tu_dublin_colour_rgb"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
