@@ -67,7 +67,7 @@ public class directory extends AppCompatActivity {
     }
 
     public void openTimeTable() {
-        Intent intent2 = new Intent(this, TimeTable.class);
+        Intent intent2 = new Intent(this, Day_Planner.class);
         startActivity(intent2);
     }
 
